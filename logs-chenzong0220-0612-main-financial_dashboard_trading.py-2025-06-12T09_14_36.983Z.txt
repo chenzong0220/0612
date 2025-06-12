@@ -1,520 +1,0 @@
-
-[     UTC     ] Logs for 5urizt8chyywegnfmx7emu.streamlit.app/
-────────────────────────────────────────────────────────────────────────────────────────
-[09:09:22] 🖥 Provisioning machine...
-[09:09:22] 🎛 Preparing system...
-[09:09:22] ⛓ Spinning up manager process...
-[09:09:29] 🚀 Starting up repository: '0612', branch: 'main', main module: 'financial_dashboard_trading.py'
-[09:09:29] 🐙 Cloning repository...
-[09:09:30] 🐙 Cloning into '/mount/src/0612'...
-
-[09:09:30] 🐙 Cloned repository!
-[09:09:30] 🐙 Pulling code changes from Github...
-[09:09:31] 📦 Processing dependencies...
-[09:09:31] 📦 Apt dependencies were installed from /mount/src/0612/packages.txt using apt-get.
-Hit:1 http://deb.debian.org/debian bullseye InRelease
-Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.2 kB]
-Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
-Get:4 https://packages.microsoft.com/debian/11/prod bullseye InRelease [3650 B]
-Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [381 kB]
-Get:6 https://packages.microsoft.com/debian/11/prod bullseye/main amd64 Packages [196 kB]
-Get:7 https://packages.microsoft.com/debian/11/prod bullseye/main arm64 Packages [46.9 kB]
-Fetched 699 kB in 6s (122 kB/s)
-Reading package lists...[2025-06-12 09:09:41.845866] 
-Reading package lists...[2025-06-12 09:09:44.365941] 
-Building dependency tree...[2025-06-12 09:09:45.877575] 
-Reading state information...[2025-06-12 09:09:45.901491] 
-The following additional packages will be installed:
-  fontconfig
-Suggested packages:
-  fonts-noto-cjk-extra
-The following NEW packages will be installed:
-  fontconfig fonts-noto-cjk fonts-wqy-zenhei
-0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
-Need to get 63.0 MB of archives.
-After this operation, 109 MB of additional disk space will be used.
-Get:1 http://deb.debian.org/debian bullseye/main amd64 fontconfig amd64 2.13.1-4.2 [417 kB]
-Get:2 http://deb.debian.org/debian bullseye/main amd64 fonts-noto-cjk all 1:20201206-cjk+repack1-1 [55.1 MB]
-Get:3 http://deb.debian.org/debian bullseye/main amd64 fonts-wqy-zenhei all 0.9.45-8 [7479 kB]
-debconf: delaying package configuration, since apt-utils is not installed
-Fetched 63.0 MB in 3s (20.2 MB/s)
-Selecting previously unselected package fontconfig.
-(Reading database ... [2025-06-12 09:09:52.548245] (Reading database ... 5%[2025-06-12 09:09:52.552253] (Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%[2025-06-12 09:09:52.554661] (Reading database ... 65%[2025-06-12 09:09:52.556283] (Reading database ... 70%[2025-06-12 09:09:52.557615] (Reading database ... 75%[2025-06-12 09:09:52.560927] (Reading database ... 80%[2025-06-12 09:09:52.562470] (Reading database ... 85%[2025-06-12 09:09:52.563928] (Reading database ... 90%[2025-06-12 09:09:52.567109] (Reading database ... 95%[2025-06-12 09:09:52.569582] (Reading database ... 100%[2025-06-12 09:09:52.570189] (Reading database ... [2025-06-12 09:09:52.570628] 22039 files and directories currently installed.)
-Preparing to unpack .../fontconfig_2.13.1-4.2_amd64.deb ...
-Unpacking fontconfig (2.13.1-4.2) ...
-Selecting previously unselected package fonts-noto-cjk.
-Preparing to unpack .../fonts-noto-cjk_1%3a20201206-cjk+repack1-1_all.deb ...
-Unpacking fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Selecting previously unselected package fonts-wqy-zenhei.
-Preparing to unpack .../fonts-wqy-zenhei_0.9.45-8_all.deb ...
-Unpacking fonts-wqy-zenhei (0.9.45-8) ...
-Setting up fontconfig (2.13.1-4.2) ...
-Regenerating fonts cache... [2025-06-12 09:10:44.744271] done.
-Setting up fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Setting up fonts-wqy-zenhei (0.9.45-8) ...
-
-──────────────────────────────────────── uv ───────────────────────────────────────────
-
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-  × No solution found when resolving dependencies:[2025-06-12 09:10:49.502283] 
-  ╰─▶ Because there is no version of python-version==3.10 and you require
-      python-version==3.10, we can conclude that your requirements are
-      unsatisfiable.[2025-06-12 09:10:49.503167] 
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-Resolved [2025-06-12 09:10:50.498383] 5 packages[2025-06-12 09:10:50.498921]  [2025-06-12 09:10:50.499305] in 623ms[2025-06-12 09:10:50.499668] 
-Prepared 5 packages in 830ms
-Installed 5 packages in 196ms
- + markdown-it-py==3.0.0
- + mdurl==0.1.2
- + pygments==2.19.1
- + rich==14.0.0
- + typing-extensions==4.14.0
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-
-──────────────────────────────────────── pip ───────────────────────────────────────────
-
-Using standard pip install.
-ERROR: Could not find a version that satisfies the requirement python_version==3.10 (from versions: 0.0.2)
-ERROR: No matching distribution found for python_version==3.10
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using standard pip install.
-Collecting rich>=10.14.0
-  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
-  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
-  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting typing-extensions<5.0,>=4.0.0 (from rich>=10.14.0)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Downloading rich-14.0.0-py3-none-any.whl (243 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 9.6 MB/s eta 0:00:00
-Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 20.5 MB/s eta 0:00:00[2025-06-12 09:10:57.878185] 
-Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 5.3 MB/s eta 0:00:00[2025-06-12 09:10:58.127134] 
-Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 111.1 MB/s eta 0:00:00[2025-06-12 09:10:58.150058] 
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Installing collected packages: typing-extensions, pygments, mdurl, markdown-it-py, rich
-  Attempting uninstall: typing-extensions
-    Found existing installation: typing_extensions 4.14.0
-    Uninstalling typing_extensions-4.14.0:
-      Successfully uninstalled typing_extensions-4.14.0
-  Attempting uninstall: pygments
-    Found existing installation: Pygments 2.19.1
-    Uninstalling Pygments-2.19.1:
-      Successfully uninstalled Pygments-2.19.1
-  Attempting uninstall: mdurl
-    Found existing installation: mdurl 0.1.2
-    Uninstalling mdurl-0.1.2:
-      Successfully uninstalled mdurl-0.1.2
-  Attempting uninstall: markdown-it-py
-    Found existing installation: markdown-it-py 3.0.0
-    Uninstalling markdown-it-py-3.0.0:
-      Successfully uninstalled markdown-it-py-3.0.0
-  Attempting uninstall: rich
-    Found existing installation: rich 14.0.0
-    Uninstalling rich-14.0.0:
-      Successfully uninstalled rich-14.0.0
-Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0 typing-extensions-4.14.0
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-[09:11:05] ❗️ installer returned a non-zero exit code
-[09:11:05] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
-[09:09:29] 🚀 Starting up repository: '0612', branch: 'main', main module: 'financial_dashboard_trading.py'
-[09:09:29] 🐙 Cloning repository...
-[09:09:30] 🐙 Cloning into '/mount/src/0612'...
-
-[09:09:30] 🐙 Cloned repository!
-[09:09:30] 🐙 Pulling code changes from Github...
-[09:09:31] 📦 Processing dependencies...
-[09:09:31] 📦 Apt dependencies were installed from /mount/src/0612/packages.txt using apt-get.
-Hit:1 http://deb.debian.org/debian bullseye InRelease
-Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.2 kB]
-Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
-Get:4 https://packages.microsoft.com/debian/11/prod bullseye InRelease [3650 B]
-Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [381 kB]
-Get:6 https://packages.microsoft.com/debian/11/prod bullseye/main amd64 Packages [196 kB]
-Get:7 https://packages.microsoft.com/debian/11/prod bullseye/main arm64 Packages [46.9 kB]
-Fetched 699 kB in 6s (122 kB/s)
-Reading package lists...[2025-06-12 09:09:41.845866] 
-Reading package lists...[2025-06-12 09:09:44.365941] 
-Building dependency tree...[2025-06-12 09:09:45.877575] 
-Reading state information...[2025-06-12 09:09:45.901491] 
-The following additional packages will be installed:
-  fontconfig
-Suggested packages:
-  fonts-noto-cjk-extra
-The following NEW packages will be installed:
-  fontconfig fonts-noto-cjk fonts-wqy-zenhei
-0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
-Need to get 63.0 MB of archives.
-After this operation, 109 MB of additional disk space will be used.
-Get:1 http://deb.debian.org/debian bullseye/main amd64 fontconfig amd64 2.13.1-4.2 [417 kB]
-Get:2 http://deb.debian.org/debian bullseye/main amd64 fonts-noto-cjk all 1:20201206-cjk+repack1-1 [55.1 MB]
-Get:3 http://deb.debian.org/debian bullseye/main amd64 fonts-wqy-zenhei all 0.9.45-8 [7479 kB]
-debconf: delaying package configuration, since apt-utils is not installed
-Fetched 63.0 MB in 3s (20.2 MB/s)
-Selecting previously unselected package fontconfig.
-(Reading database ... [2025-06-12 09:09:52.548245] (Reading database ... 5%[2025-06-12 09:09:52.552253] (Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%[2025-06-12 09:09:52.554661] (Reading database ... 65%[2025-06-12 09:09:52.556283] (Reading database ... 70%[2025-06-12 09:09:52.557615] (Reading database ... 75%[2025-06-12 09:09:52.560927] (Reading database ... 80%[2025-06-12 09:09:52.562470] (Reading database ... 85%[2025-06-12 09:09:52.563928] (Reading database ... 90%[2025-06-12 09:09:52.567109] (Reading database ... 95%[2025-06-12 09:09:52.569582] (Reading database ... 100%[2025-06-12 09:09:52.570189] (Reading database ... [2025-06-12 09:09:52.570628] 22039 files and directories currently installed.)
-Preparing to unpack .../fontconfig_2.13.1-4.2_amd64.deb ...
-Unpacking fontconfig (2.13.1-4.2) ...
-Selecting previously unselected package fonts-noto-cjk.
-Preparing to unpack .../fonts-noto-cjk_1%3a20201206-cjk+repack1-1_all.deb ...
-Unpacking fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Selecting previously unselected package fonts-wqy-zenhei.
-Preparing to unpack .../fonts-wqy-zenhei_0.9.45-8_all.deb ...
-Unpacking fonts-wqy-zenhei (0.9.45-8) ...
-Setting up fontconfig (2.13.1-4.2) ...
-Regenerating fonts cache... [2025-06-12 09:10:44.744271] done.
-Setting up fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Setting up fonts-wqy-zenhei (0.9.45-8) ...
-
-──────────────────────────────────────── uv ───────────────────────────────────────────
-
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-  × No solution found when resolving dependencies:[2025-06-12 09:10:49.502283] 
-  ╰─▶ Because there is no version of python-version==3.10 and you require
-      python-version==3.10, we can conclude that your requirements are
-      unsatisfiable.[2025-06-12 09:10:49.503167] 
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-Resolved [2025-06-12 09:10:50.498383] 5 packages[2025-06-12 09:10:50.498921]  [2025-06-12 09:10:50.499305] in 623ms[2025-06-12 09:10:50.499668] 
-Prepared 5 packages in 830ms
-Installed 5 packages in 196ms
- + markdown-it-py==3.0.0
- + mdurl==0.1.2
- + pygments==2.19.1
- + rich==14.0.0
- + typing-extensions==4.14.0
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-
-──────────────────────────────────────── pip ───────────────────────────────────────────
-
-Using standard pip install.
-ERROR: Could not find a version that satisfies the requirement python_version==3.10 (from versions: 0.0.2)
-ERROR: No matching distribution found for python_version==3.10
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using standard pip install.
-Collecting rich>=10.14.0
-  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
-  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
-  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting typing-extensions<5.0,>=4.0.0 (from rich>=10.14.0)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Downloading rich-14.0.0-py3-none-any.whl (243 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 9.6 MB/s eta 0:00:00
-Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 20.5 MB/s eta 0:00:00[2025-06-12 09:10:57.878185] 
-Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 5.3 MB/s eta 0:00:00[2025-06-12 09:10:58.127134] 
-Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 111.1 MB/s eta 0:00:00[2025-06-12 09:10:58.150058] 
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Installing collected packages: typing-extensions, pygments, mdurl, markdown-it-py, rich
-  Attempting uninstall: typing-extensions
-    Found existing installation: typing_extensions 4.14.0
-    Uninstalling typing_extensions-4.14.0:
-      Successfully uninstalled typing_extensions-4.14.0
-  Attempting uninstall: pygments
-    Found existing installation: Pygments 2.19.1
-    Uninstalling Pygments-2.19.1:
-      Successfully uninstalled Pygments-2.19.1
-  Attempting uninstall: mdurl
-    Found existing installation: mdurl 0.1.2
-    Uninstalling mdurl-0.1.2:
-      Successfully uninstalled mdurl-0.1.2
-  Attempting uninstall: markdown-it-py
-    Found existing installation: markdown-it-py 3.0.0
-    Uninstalling markdown-it-py-3.0.0:
-      Successfully uninstalled markdown-it-py-3.0.0
-  Attempting uninstall: rich
-    Found existing installation: rich 14.0.0
-    Uninstalling rich-14.0.0:
-      Successfully uninstalled rich-14.0.0
-Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0 typing-extensions-4.14.0
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-[09:11:05] ❗️ installer returned a non-zero exit code
-[09:11:05] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
-[09:12:46] 🖥 Provisioning machine...
-[09:12:44] 🐙 Pulling code changes from Github...
-[09:12:46] 🎛 Preparing system...
-[09:12:46] ⛓ Spinning up manager process...
-[09:12:46] 📦 Processing dependencies...
-[09:12:46] 📦 Apt dependencies were installed from /mount/src/0612/packages.txt using apt-get.
-
-──────────────────────────────────────── uv ───────────────────────────────────────────
-
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-  × No solution found when resolving dependencies:[2025-06-12 09:12:47.838471] 
-  ╰─▶ Because there is no version of python-version==3.10 and you require
-      python-version==3.10, we can conclude that your requirements are
-      unsatisfiable.[2025-06-12 09:12:47.839235] 
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-Audited 1 package in 2ms
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-
-──────────────────────────────────────── pip ───────────────────────────────────────────
-
-Using standard pip install.
-ERROR: Could not find a version that satisfies the requirement python_version==3.10 (from versions: 0.0.2)
-ERROR: No matching distribution found for python_version==3.10
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-[09:12:53] 🖥 Provisioning machine...
-[09:12:58] 🎛 Preparing system...
-[09:12:59] 🚀 Starting up repository: '0612', branch: 'main', main module: 'financial_dashboard_trading.py'
-[09:12:59] 🐙 Cloning repository...
-[09:12:59] 🐙 Cloning into '/mount/src/0612'...
-
-[09:12:59] 🐙 Cloned repository!
-[09:12:59] 🐙 Pulling code changes from Github...
-[09:12:59] 📦 Processing dependencies...
-[09:12:59] 📦 Apt dependencies were installed from /mount/src/0612/packages.txt using apt-get.
-Hit:1 http://deb.debian.org/debian bullseye InRelease
-Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [27.2 kB]
-Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
-Get:4 https://packages.microsoft.com/debian/11/prod bullseye InRelease [3650 B]
-Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [381 kB]
-Get:6 https://packages.microsoft.com/debian/11/prod bullseye/main arm64 Packages [46.9 kB]
-Get:7 https://packages.microsoft.com/debian/11/prod bullseye/main amd64 Packages [196 kB]
-Fetched 699 kB in 1s (873 kB/s)
-Reading package lists...[2025-06-12 09:13:01.722260] 
-Reading package lists...[2025-06-12 09:13:02.378879] 
-Building dependency tree...[2025-06-12 09:13:02.600549] 
-Reading state information...[2025-06-12 09:13:02.601100] 
-The following additional packages will be installed:
-  fontconfig
-Suggested packages:
-  fonts-noto-cjk-extra
-The following NEW packages will be installed:
-  fontconfig fonts-noto-cjk fonts-wqy-zenhei
-0 upgraded, 3 newly installed, 0 to remove and 15 not upgraded.
-Need to get 63.0 MB of archives.
-After this operation, 109 MB of additional disk space will be used.
-Get:1 http://deb.debian.org/debian bullseye/main amd64 fontconfig amd64 2.13.1-4.2 [417 kB]
-Get:2 http://deb.debian.org/debian bullseye/main amd64 fonts-noto-cjk all 1:20201206-cjk+repack1-1 [55.1 MB]
-[09:13:03] ⛓ Spinning up manager process...
-Get:3 http://deb.debian.org/debian bullseye/main amd64 fonts-wqy-zenhei all 0.9.45-8 [7479 kB]
-debconf: delaying package configuration, since apt-utils is not installed
-Fetched 63.0 MB in 1s (120 MB/s)
-Selecting previously unselected package fontconfig.
-(Reading database ... [2025-06-12 09:13:03.692468] (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%[2025-06-12 09:13:03.694431] (Reading database ... 65%[2025-06-12 09:13:03.695303] (Reading database ... 70%[2025-06-12 09:13:03.696809] (Reading database ... 75%[2025-06-12 09:13:03.698459] (Reading database ... 80%[2025-06-12 09:13:03.700017] (Reading database ... 85%[2025-06-12 09:13:03.701539] (Reading database ... 90%[2025-06-12 09:13:03.703594] (Reading database ... 95%[2025-06-12 09:13:03.705417] (Reading database ... 100%(Reading database ... 22039 files and directories currently installed.)
-Preparing to unpack .../fontconfig_2.13.1-4.2_amd64.deb ...
-Unpacking fontconfig (2.13.1-4.2) ...
-Selecting previously unselected package fonts-noto-cjk.
-Preparing to unpack .../fonts-noto-cjk_1%3a20201206-cjk+repack1-1_all.deb ...
-Unpacking fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Selecting previously unselected package fonts-wqy-zenhei.
-Preparing to unpack .../fonts-wqy-zenhei_0.9.45-8_all.deb ...
-Unpacking fonts-wqy-zenhei (0.9.45-8) ...
-Setting up fontconfig (2.13.1-4.2) ...
-Regenerating fonts cache... [2025-06-12 09:13:11.184502] done.
-Setting up fonts-noto-cjk (1:20201206-cjk+repack1-1) ...
-Setting up fonts-wqy-zenhei (0.9.45-8) ...
-
-──────────────────────────────────────── uv ───────────────────────────────────────────
-
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-  × No solution found when resolving dependencies:
-  ╰─▶ Because there is no version of python-version==3.10 and you require
-      python-version==3.10, we can conclude that your requirements are
-      unsatisfiable.
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-Resolved 5 packages in 137ms
-Prepared 5 packages in 185ms
-Installed 5 packages in 19ms
- + markdown-it-py==3.0.0
- + mdurl==0.1.2
- + pygments==2.19.1
- + rich==[2025-06-12 09:13:13.599243] 14.0.0
- + typing-extensions==4.14.0
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-
-──────────────────────────────────────── pip ───────────────────────────────────────────
-
-Using standard pip install.
-ERROR: Could not find a version that satisfies the requirement python_version==3.10 (from versions: 0.0.2)
-ERROR: No matching distribution found for python_version==3.10
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using standard pip install.
-Collecting rich>=10.14.0
-  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
-  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
-  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting typing-extensions<5.0,>=4.0.0 (from rich>=10.14.0)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Downloading rich-14.0.0-py3-none-any.whl (243 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 12.1 MB/s eta 0:00:00[2025-06-12 09:13:16.708440] 
-Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 150.7 MB/s eta 0:00:00[2025-06-12 09:13:16.724374] 
-Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 67.8 MB/s eta 0:00:00[2025-06-12 09:13:16.757481] 
-Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 133.8 MB/s eta 0:00:00[2025-06-12 09:13:16.771977] 
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Installing collected packages: typing-extensions, pygments, mdurl, markdown-it-py, rich
-  Attempting uninstall: typing-extensions
-    Found existing installation: typing_extensions 4.14.0
-    Uninstalling typing_extensions-4.14.0:
-      Successfully uninstalled typing_extensions-4.14.0
-  Attempting uninstall: pygments
-    Found existing installation: Pygments 2.19.1
-    Uninstalling Pygments-2.19.1:
-      Successfully uninstalled Pygments-2.19.1
-  Attempting uninstall: mdurl
-    Found existing installation: mdurl 0.1.2
-    Uninstalling mdurl-0.1.2:
-      Successfully uninstalled mdurl-0.1.2
-  Attempting uninstall: markdown-it-py
-    Found existing installation: markdown-it-py 3.0.0
-    Uninstalling markdown-it-py-3.0.0:
-      Successfully uninstalled markdown-it-py-3.0.0
-  Attempting uninstall: rich
-    Found existing installation: rich 14.0.0
-    Uninstalling rich-14.0.0:
-      Successfully uninstalled rich-14.0.0
-Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0 typing-extensions-4.14.0
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-[09:13:21] ❗️ installer returned a non-zero exit code
-[09:13:21] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
-[09:13:21] 🐙 Pulling code changes from Github...
-[09:13:22] 📦 Processing dependencies...
-[09:13:22] 📦 Apt dependencies were installed from /mount/src/0612/packages.txt using apt-get.
-
-──────────────────────────────────────── uv ───────────────────────────────────────────
-
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-  × No solution found when resolving dependencies:
-  ╰─▶ Because there is no version of python-version==3.10 and you require
-      python-version==3.10, we can conclude that your requirements are
-      unsatisfiable.
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using uv pip install.
-Using Python 3.10.17 environment at /home/adminuser/venv
-Audited 1 package in 1ms
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-
-──────────────────────────────────────── pip ───────────────────────────────────────────
-
-Using standard pip install.
-ERROR: Could not find a version that satisfies the requirement python_version==3.10 (from versions: 0.0.2)
-ERROR: No matching distribution found for python_version==3.10
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-Checking if Streamlit is installed
-Installing rich for an improved exception logging
-Using standard pip install.
-Collecting rich>=10.14.0
-  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
-Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
-  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
-Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
-  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
-Collecting typing-extensions<5.0,>=4.0.0 (from rich>=10.14.0)
-  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
-Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
-  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
-Downloading rich-14.0.0-py3-none-any.whl (243 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 8.5 MB/s eta 0:00:00[2025-06-12 09:13:26.124768] 
-Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 125.1 MB/s eta 0:00:00[2025-06-12 09:13:26.142603] 
-Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 67.8 MB/s eta 0:00:00[2025-06-12 09:13:26.238549] 
-Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 198.0 MB/s eta 0:00:00[2025-06-12 09:13:26.239760] 
-Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
-Installing collected packages: typing-extensions, pygments, mdurl, markdown-it-py, rich
-  Attempting uninstall: typing-extensions
-    Found existing installation: typing_extensions 4.14.0
-    Uninstalling typing_extensions-4.14.0:
-      Successfully uninstalled typing_extensions-4.14.0
-  Attempting uninstall: pygments
-    Found existing installation: Pygments 2.19.1
-    Uninstalling Pygments-2.19.1:
-      Successfully uninstalled Pygments-2.19.1
-  Attempting uninstall: mdurl
-    Found existing installation: mdurl 0.1.2
-    Uninstalling mdurl-0.1.2:
-      Successfully uninstalled mdurl-0.1.2
-  Attempting uninstall: markdown-it-py
-    Found existing installation: markdown-it-py 3.0.0
-    Uninstalling markdown-it-py-3.0.0:
-      Successfully uninstalled markdown-it-py-3.0.0
-  Attempting uninstall: rich
-    Found existing installation: rich 14.0.0
-    Uninstalling rich-14.0.0:
-      Successfully uninstalled rich-14.0.0
-Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0 typing-extensions-4.14.0
-
-[notice] A new release of pip is available: 24.0 -> 25.1.1
-[notice] To update, run: pip install --upgrade pip
-
-────────────────────────────────────────────────────────────────────────────────────────
-
-[09:13:28] ❗️ installer returned a non-zero exit code
